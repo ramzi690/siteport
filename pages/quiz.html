@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Développement Web</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Accueil</a>
+        <a href="/pages/parcours.html">Parcours</a>
+        <a href="/pages/competences.html">Compétences</a>
+        <a href="/pages/experiences.html">Expériences</a>
+        <a href="/pages/passions.html">Passions</a>
+        <a href="/pages/quiz.html" class="current">Quiz</a>
+        <a href="/pages/contact.html">Contact</a>
+        <a href="/pages/temoignage.html" >Témoignage IIT</a>
+    </nav>
+
+    <main>
+        <div class="container">
+            <h1>Quiz sur le Développement Web</h1>
+            
+            <div class="quiz-container">
+                <form id="quizForm">
+                    <div class="question">
+                        <p>1. Que signifie HTML ?</p>
+                        <div class="options">
+                            <label>
+                                <input type="radio" name="q1" value="a"> HyperText Markup Language
+                            </label>
+                            <label>
+                                <input type="radio" name="q1" value="b"> HighText Marking Language
+                            </label>
+                            <label>
+                                <input type="radio" name="q1" value="c"> HyperText Making Language
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <p>2. Que signifie CSS ?</p>
+                        <div class="options">
+                            <label>
+                                <input type="radio" name="q2" value="a"> Computer Style Sheets
+                            </label>
+                            <label>
+                                <input type="radio" name="q2" value="b"> Cascading Style Sheets
+                            </label>
+                            <label>
+                                <input type="radio" name="q2" value="c"> Creative Style Sheets
+                            </label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>3. Quel langage est principalement utilisé pour ajouter de l'interactivité à une page web ?</p>
+                        <div class="options">
+                            <label>
+                                <input type="radio" name="q3" value="a"> HTML
+                            </label>
+                            <label>
+                                <input type="radio" name="q3" value="b"> CSS
+                            </label>
+                            <label>
+                                <input type="radio" name="q3" value="c"> JavaScript
+                            </label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>4. Quelle balise est utilisée pour insérer une image dans une page HTML ?</p>
+                        <div class="options">
+                            <label>
+                                <input type="radio" name="q4" value="a">  &lt;img&gt;
+                            </label>
+                            <label>
+                                <input type="radio" name="q4" value="b"> &lt;image&gt;
+                            </label>
+                            <label>
+                                <input type="radio" name="q4" value="c"> &lt;pic&gt;
+                            </label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>5. Comment spécifier une couleur en CSS ?</p>
+                        <div class="options">
+                            <label>
+                                <input type="radio" name="q5" value="a"> background: #000000;
+                            </label>
+                            <label>
+                                <input type="radio" name="q5" value="b"> bg: #000000;
+                            </label>
+                            <label>
+                                <input type="radio" name="q5" value="c"> color: hex(#000000);
+                            </label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>6. Quel attribut HTML est utilisé pour définir un identifiant unique ?</p>
+                        <div class="options">
+                            <label>
+                                <input type="radio" name="q6" value="a"> class
+                            </label>
+                            <label>
+                                <input type="radio" name="q6" value="b"> id
+                            </label>
+                            <label>
+                                <input type="radio" name="q6" value="c"> name
+                            </label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>7. Quelle balise est utilisée pour créer un lien hypertexte en HTML</p>
+                        <div class="options">
+                            <label>
+                                <input type="radio" name="q7" value="a"> &lt;link&gt;
+                            </label>
+                            <label>
+                                <input type="radio" name="q7" value="b"> &lt;a&gt;
+                            </label>
+                            <label>
+                                <input type="radio" name="q7" value="c"> &lt;href&gt;
+                            </label>
+                            <label>
+                                <input type="radio" name="q7" value="d"> &lt;ul&gt;
+                            </label>
+                        </div>
+
+                    </div>
+                    <div class="question">
+                        <p>8. Quel est le bon format de commentaire en JavaScript ?</p>
+                        <div class="options">
+                            <label>
+                                <input type="radio" name="q8" value="a"> // Ceci est un commentaire
+                            </label>
+                            <label>
+                                <input type="radio" name="q8" value="b"> &lt;!-- Ceci est un commentaire --&gt;
+                            </label>
+                            <label>
+                                <input type="radio" name="q8" value="c"> ** Ceci est un commentaire **
+                            </label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>9. Quel attribut CSS contrôle la taille de la police ?</p>
+                        <div class="options">
+                            <label>
+                                <input type="radio" name="q9" value="a"> font-weight
+                            </label>
+                            <label>
+                                <input type="radio" name="q9" value="b"> text-size
+                            </label>
+                            <label>
+                                <input type="radio" name="q9" value="c"> font-size
+                            </label>
+                        </div>
+                    </div>
+
+
+                    
+                    <div class="question">
+                        <p>10. Quelle méthode JavaScript peut être utilisée pour sélectionner un élément par son ID ?</p>
+                        <div class="options">
+                            <label>
+                                <input type="radio" name="q10" value="a"> document.querySelector()
+                            </label>
+                            <label>
+                                <input type="radio" name="q10" value="b"> document.getElementById()
+                            </label>
+                            <label>
+                                <input type="radio" name="q10" value="c"> document.getElementsByClassName()
+                            </label>
+                        </div>
+                    </div>
+
+                    <button type="submit">Valider mes réponses</button>
+                </form>
+
+                <div id="result" class="result" style="display: none;">
+                    <h2>Votre score : <span id="score">0</span>/10</h2>
+                    <div id="corrections"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Tous droits réservés</p>
+    </footer>
+
+    <script src="/js/quiz.js"></script>
+</body>
+</html>
